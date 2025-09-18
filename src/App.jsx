@@ -23,7 +23,7 @@ function App() {
       <div className="flex flex-col min-h-screen">
         <Sidebar />
 
-        <div className="w-full h-full flex-1 pt-[96px]">
+        <div className="w-full h-full flex-1 pl-[255px]">
           <div data-aos="fade-up">
             <Routes>
               <Route path="/" element={<Dashboard />} />

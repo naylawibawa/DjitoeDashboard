@@ -40,7 +40,6 @@ export default function Sidebar() {
 
       <hr className="w-3/4 border-gray-200 mb-4" />
 
-      {/* Menu */}
       <nav className="w-full flex flex-col">
         {menuItems.map((item) => (
           <Link key={item.name} to={item.path} onClick={() => setActive(item.path)} className={`w-full transition-colors duration-300 ${active === item.path ? "bg-indigo-100" : "hover:bg-indigo-100"}`}>
