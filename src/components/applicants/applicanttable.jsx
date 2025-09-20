@@ -43,10 +43,6 @@ export default function ApplicantTable() {
     }
   };
 
-  const confirmDelete = (id) => {
-    setApplicants((prev) => prev.filter((item) => item.id !== id));
-  };
-
   return (
     <div className="px-8 py-8 font-inter">
       <h1 className="text-2xl font-semibold text-indigo-300 mb-8 mt-1">Applicants Administration</h1>
