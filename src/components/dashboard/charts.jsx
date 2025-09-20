@@ -34,13 +34,7 @@ export default function Charts() {
   };
 
   const barData = {
-    labels: [
-      ["Electrical", "Engineer"],
-      ["Mechanical", "Engineer"],
-      ["Machine", "Assembler"],
-      ["CAD", "Design"],
-      ["Warehouse", "Staff"],
-    ],
+    labels: [["Electrical Engineer"], ["Mechanical Engineer"], ["Machine Assembler"], ["CAD Design"], ["Warehouse Staff"]],
     datasets: [
       {
         label: "2023",
@@ -63,7 +57,7 @@ export default function Charts() {
   return (
     <div className="pb-9 px-8 pt-2 font-inter">
       <div className="grid grid-cols-3 gap-6">
-        <div className="bg-white p-6 rounded-xl shadow-sm">
+        <div className="bg-white p-6 rounded-xl shadow-lg">
           <h3 className="text-sm font-semibold text-gray-800 mb-1">Product Publication Progress</h3>
           <div className="flex items-center gap-2 mb-4">
             <p className="text-xs text-gray-500">This Quarter</p>
@@ -98,7 +92,7 @@ export default function Charts() {
           </div>
         </div>
 
-        <div className="bg-white p-6 rounded-xl shadow-sm item-center">
+        <div className="bg-white p-6 rounded-xl shadow-lg item-center">
           <h3 className="text-sm font-semibold text-gray-800 mb-2">Applicant Graph</h3>
           <div className="flex items-center mb-4">
             <div className="w-8 h-[3px] bg-cyan-400 rounded-sm shadow-sm"></div>
@@ -147,7 +141,7 @@ export default function Charts() {
           </div>
         </div>
 
-        <div className="bg-white p-6 rounded-xl shadow-sm">
+        <div className="bg-white p-6 rounded-xl shadow-lg">
           <h3 className="text-sm font-semibold mb-2">Career Graph</h3>
           <div className="flex items-center mb-4">
             <div className="w-8 h-[3px] bg-cyan-400 rounded-sm shadow-sm"></div>
